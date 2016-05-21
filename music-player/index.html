@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>音乐播放器</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/init.js"></script>
+</head>
+
+<body>
+<!--Star first page:z-index:1-->
+<header class="page-first-container">
+  <!--first page background image effects floor:z-index:2-->
+  <div class="pfc-floor-z1"><img src="img/bgi1.jpg"></div>
+  <!--first page background animal effects floor:z-index:3-->
+  <div class="pfc-floor-z2" id="particles"></div>
+  
+  
+  <!--first page background color effects floor:z-index:4-->
+  <div class="pfc-floor-z3" id="colorFloor"></div>
+  <!--first page content floor:z-index:5-->
+  <div class="pfc-floor-z4">
+  
+    <div class="player-control">
+      <div class="control-box1">
+        <div class="left-top">
+          <div class="btn-word-top">&#62;</div>
+        </div>
+        <div class="right-top">
+          <div class="btn-word-left">&#62;</div>
+        </div>
+        <div class="left-bot">
+          <div class="btn-word-bot">&#62;</div>
+        </div>
+        <div class="right-bot">
+          <div class="btn-word-right">&#62;</div>
+        </div>
+      </div>
+      <div class="control-box2">
+        <div class="control-box3"></div>
+      </div>
+    </div>
+    <div class="music-box">
+    <div id="music-box-show">
+      <div class="music-box-left">
+        <div class="music-info-title"></div>
+        <div class="music-info-main">
+          <div class="music-logo-circle1" id="cd">
+            <div class="music-logo-circle2" id="cdLogo">
+              <div class="music-logo-circle3">
+                <div class="music-logo-circle4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="music-info-bot"></div>
+      </div>
+      <div class="music-box-right">
+        <div class="music-title"></div>
+        <div class="music-list" id="musicList">
+          <ul>
+            <li id="imaginewithoutyou"><span>1. Imagine Me Without You</span></li>
+            <li id="xiangzelan"><span>2. 香 泽 兰</span></li>
+            <li id="fengsuoxian"><span>3. 封 锁 线</span></li>
+            <li id="yujian"><span>4. 遇 见</span></li>
+            <li><span>5. 贝 加 尔 湖 畔</span></li>
+            <li><span>6. 醉 城 伤</span></li>
+            <li><span>7. 我 们 说 好 的</span></li>
+            <li style="border:none"><span>8. 安 静 下 来</span></li>
+          </ul>
+        </div>
+        <div class="music-bot"></div>
+      </div>
+      </div>
+    </div>
+    <div class="box-stent">
+      <div class="stent-left"></div>
+      <div class="stent-right"></div>
+    </div>
+    <div class="box-base"></div>
+  </div>
+
+</header>
+<!--End first page-->
+
+
+
+<!--Star footer-->
+<footer></footer>
+<!--End footer-->
+<script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> 
+<script type='text/javascript' src='js/jquery.particleground.min.js'></script>
+</body>
+</html>
